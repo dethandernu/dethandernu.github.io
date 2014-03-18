@@ -99,5 +99,12 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 
-  activate :favicon_maker
+  activate :favicon_maker, :icons => {
+    "favicon_template.png" => [
+      { icon: "apple-touch-icon-152x152-precomposed.png" },
+      { icon: "apple-touch-icon-144x144-precomposed.png" },
+      { icon: "apple-touch-icon-114x114-precomposed.png" },
+      { icon: "apple-touch-icon-72x72-precomposed.png" },
+    ]
+  }
 end
