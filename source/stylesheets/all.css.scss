@@ -61,4 +61,17 @@ body {
   .button {
     margin-bottom: 96px;
   }
+
+  .share {
+    margin-top: 10px;
+    .count {
+      font-size: 2em;
+      margin-left: 0.2em;
+    }
+    .button {
+      font-family: Helvetica Neue, Arial, sans-serif;
+      margin: 0;
+    }
+  }
+
 }
