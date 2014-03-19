@@ -32,5 +32,8 @@
     <![endif]-->
   %body{:class => page_classes}
     = yield
+    %span{'data-twitter-count' => 'http://popdevelop.com'}
+    %span{'data-facebook-count' => 'http://popdevelop.com'}
 
+  = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"
   = javascript_include_tag  "all"
