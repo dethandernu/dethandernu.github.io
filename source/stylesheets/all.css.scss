@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-@import 'foundation/scss/foundation';
 @import "compass";
 
 @include font-face("Klinic",
@@ -14,3 +13,6 @@
              "KlinicSlabBookIt.svg",
              "KlinicSlabBookIt.woff"),
   "KlinicSlabBookIt.eot", 400, italic);
+
+@import 'foundation_and_overrides';
+
