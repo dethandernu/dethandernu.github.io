@@ -51,7 +51,7 @@ body {
     color: #fff;
     font-size: 78px;
     font-style: italic;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-bottom: 17px;
   }
   h2.subheader {
@@ -60,7 +60,7 @@ body {
     margin-bottom: 48px;
   }
   .button {
-    margin-bottom: 96px;
+    margin-bottom: 130px;
   }
 
   .share {
@@ -71,8 +71,21 @@ body {
       vertical-align: baseline;
     }
     .button {
-      font-family: Helvetica Neue, Arial, sans-serif;
       margin: 0;
+      border: none;
+      padding-left: 56px;
+    }
+    .fa-twitter {
+      font-size: 37px;
+      position: absolute;
+      left: 19px;
+      top: 11px;
+    }
+    .fa-facebook {
+      font-size: 30px;
+      position: absolute;
+      left: 29px;
+      top: 15px;
     }
   }
 
