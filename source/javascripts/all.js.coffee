@@ -1,3 +1,4 @@
+#= require odometer/odometer
 
 $('[data-twitter-count]').each((el, i) ->
   url = $(@).data('twitter-count')

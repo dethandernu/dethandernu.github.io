@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import "compass";
+@import "odometer/themes/odometer-theme-default";
 
 @include font-face("Klinic",
   font-files("KlinicSlabBook.ttf",
@@ -67,6 +68,7 @@ body {
     .count {
       font-size: 2em;
       margin-left: 0.2em;
+      vertical-align: baseline;
     }
     .button {
       font-family: Helvetica Neue, Arial, sans-serif;
