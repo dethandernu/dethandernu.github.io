@@ -19,3 +19,18 @@ $('[data-facebook-count]').each((el, i) ->
   ).success (r) =>
     $(@).html(r.shares)
 )
+
+
+$('form#interest').submit( (e) ->
+  e.preventDefault()
+  email = $(@).find('input[name="email"]').val()
+  url = $(@).attr('action')
+  return false unless email
+  $.post(url, email: email)
+  .success((r) ->
+    alert r.message
+  )
+  .fail((r)->
+    alert r.message
+  )
+)

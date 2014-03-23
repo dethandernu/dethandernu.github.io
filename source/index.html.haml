@@ -20,6 +20,10 @@ title: F! - Det händer nu
         %h2.subheader
           Feministiskt initiativ går till val på mandatet att driva en feministisk och antirasistisk politik. Vi är den röst som står upp för mänskliga rättigheter och mot alla former av diskriminering.
         .large.button Förhandsboka
+        %form#interest{'action' => 'email.php'}
+          %input{:type => 'email', :name => 'email', :required => true}
+          %input.large.button{:type => 'submit', :value => 'Förhandsboka'}
+
 
 %section#info
   .container
