@@ -44,6 +44,11 @@ body {
   }
 }
 
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 #hero {
   //background: #D71066;
   //background-image: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.16)),-webkit-linear-gradient(108deg,#CC1BA5,#D71066 90%);
@@ -64,7 +69,7 @@ body {
   h2.subheader {
     color: #FFD5EC;
     font-size: 29px;
-    margin-bottom: 48px;
+    margin-bottom: 54px;
   }
   .button {
     margin-bottom: 130px;
@@ -100,18 +105,22 @@ body {
   }
 }
 
-#people {
-  padding-top: 95px;
+#info {
+  background: #F7F7F7 image-url('http://www.inmedfeministerna.se/assets/bg_kawesa-ba315883d598a648baf74214e45a462e.jpg') no-repeat center center;
+  @include background-size(cover);
+  h2 {
+    margin-bottom: 30px;
+  }
+}
 
-  .columns {
+#people {
+  .row.people-row {
     margin-bottom: 52px;
   }
   h2 {
-    color: #4F4F4F;
-    margin-bottom: 75px;
+    margin-bottom: 70px;
   }
   h5 {
-    color: #4F4F4F;
     font-size: 20px;
     margin-bottom: 26px;
     //text-transform: uppercase;

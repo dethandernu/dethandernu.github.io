@@ -2,7 +2,7 @@
 title: F! - Det händer nu
 ---
 
-%section#hero
+#hero
   .container
     .row
       .small-12.columns
@@ -21,13 +21,26 @@ title: F! - Det händer nu
           Feministiskt initiativ går till val på mandatet att driva en feministisk och antirasistisk politik. Vi är den röst som står upp för mänskliga rättigheter och mot alla former av diskriminering.
         .large.button Förhandsboka
 
+%section#info
+  .container
+    .row
+      .small-8.small-push-2.columns
+        %h2.text-center
+          %small Bakgrund
+          Vad är nu detta för bok?
+        %p
+          Först och främst vill F! veta vad vi kan göra för dig. Feministiskt initiativ startade som ett demokratiskt projekt där alla som blev medlemmar var med och formade den politik som växte fram. Steget till att även öka väljarinflytandet var därför inte långt. Som parti vill vi inte att du som väljare bara ska ha valdagen till att visa vad du tycker är viktigt. Feministiskt initiativ vill nämligen att det politiska mandatet hela tiden grundas i vardagsnära problembeskrivning, aktivism och pågående initiativ. Du väljer – F! driver, helt enkelt.
+
+
 %section#people
   .container
-    %h2.text-center
-      %small Medverkande
-      Här är alla som är med i boken
+    .row
+      .small-12.columns
+        %h2.text-center
+          %small Medverkande
+          Här är alla som är med i boken
     - data.people.contributors.in_groups_of(4).each do |row|
-      .row
+      .row.people-row
         - row.each do |p|
           .small-3.columns.text-center
             - if p
@@ -35,3 +48,5 @@ title: F! - Det händer nu
               .photo
             - else
               %p &nbsp;
+
+%section#party
