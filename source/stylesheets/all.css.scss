@@ -44,6 +44,11 @@ body {
   }
 }
 
+form .button {
+  color: #D71066;
+  background: #fff;
+}
+
 section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -54,6 +59,20 @@ section {
   //background-image: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.16)),-webkit-linear-gradient(108deg,#CC1BA5,#D71066 90%);
   background: #D22486 image-url('images/hero.jpg') no-repeat center center;
   @include background-size(cover);
+  input.email {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+    font-size: 29px;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+    font-family: Klinic, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    padding: 36px 20px;
+  }
   .logo {
     position: absolute;
     left: 0;
@@ -75,7 +94,7 @@ section {
     margin-bottom: 130px;
   }
   .button.large {
-    width: 400px;
+    //width: 400px;
   }
 
   .share {
