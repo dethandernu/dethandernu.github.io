@@ -1,3 +1,4 @@
+require 'lib/grouping'
 activate :directory_indexes
 
 ###

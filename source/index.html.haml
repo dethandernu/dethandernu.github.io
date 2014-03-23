@@ -19,3 +19,14 @@ title: Nyckeln till F!het
         %h2.subheader
           Feministiskt initiativ går till val på mandatet att driva en feministisk och antirasistisk politik. Vi är den röst som står upp för mänskliga rättigheter och mot alla former av diskriminering.
         .large.button Anmäl mig idag
+
+%section
+  .container
+    - data.people.contributors.in_groups_of(6).each do |row|
+      .row
+        - row.each do |p|
+          .small-2.columns
+            - if p
+              %p= p['name']
+            - else
+              %p &nbsp;
