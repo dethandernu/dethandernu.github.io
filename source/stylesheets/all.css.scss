@@ -122,7 +122,7 @@ section {
   }
   h5 {
     font-size: 20px;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
     //text-transform: uppercase;
   }
   .photo {
@@ -131,9 +131,6 @@ section {
     border-radius: 50%;
     background: image-url('images/person.jpg') no-repeat center center;
     @include background-size(cover);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
     display: block;
     margin: 0 auto;
   }
