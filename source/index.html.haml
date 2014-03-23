@@ -1,11 +1,12 @@
 ---
-title: Nyckeln till F!het
+title: F! - Det händer nu
 ---
 
 %section#hero
   .container
     .row
       .small-12.columns
+        = image_tag 'images/fi.png', class: 'logo'
         .share.right
           %a.small.button{href: "https://twitter.com/share?url=http%3A%2F%2Fwww.inmedfeministerna.se%2F"}
             %i.fa.fa-twitter.fa-2x
@@ -18,15 +19,19 @@ title: Nyckeln till F!het
         %h1 #dethändernu
         %h2.subheader
           Feministiskt initiativ går till val på mandatet att driva en feministisk och antirasistisk politik. Vi är den röst som står upp för mänskliga rättigheter och mot alla former av diskriminering.
-        .large.button Anmäl mig idag
+        .large.button Förhandsboka
 
-%section
+%section#people
   .container
-    - data.people.contributors.in_groups_of(6).each do |row|
+    %h2.text-center
+      %small Medverkande
+      Här är alla som är med i boken
+    - data.people.contributors.in_groups_of(4).each do |row|
       .row
         - row.each do |p|
-          .small-2.columns
+          .small-3.columns.text-center
             - if p
-              %p= p['name']
+              %h5= p['name']
+              .photo
             - else
               %p &nbsp;
