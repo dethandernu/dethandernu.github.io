@@ -139,6 +139,22 @@ section {
   }
 }
 
+#party {
+  background: #F7F7F7 image-url('/images/party-bg.jpg') no-repeat center center;
+  @include background-size(cover);
+  h2 {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  p {
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  .button:hover {
+    color: #333;
+  }
+}
+
 h2 {
   small {
     display: block;
