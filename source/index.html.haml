@@ -63,9 +63,10 @@ title: F! - Det händer nu
           .small-3.columns.text-center
             - if p
               %h5= p['name']
-              .photo
+              - path = asset_url("images/contributors/#{p['image']}");
+              .photo{:style => "background-image: url(#{path})"}
             - else
-              %p &nbsp;
+              &nbsp;
 
 %section#party
   .container

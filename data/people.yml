@@ -1,49 +1,125 @@
 contributors:
-  - name: Tommy Sähl
-    image: hej.jpg
-    twitter: salen
-    website: http://example.com
-  - name: Kerstin Kvist
-    image: kvisten.jpg
-    twitter: kvisten
-    website: http://kvisten.com
-  - name: Kalle Ko
-    image: kalle.jpg
-    twitter: kalle
-    website: http://kungen.nu
-  - name: Sanna Saft
-    image: sanna.jpg
-    twitter: sannasur
-  - name: Emma Klok
-  - name: Tommy Sähl
-    image: hej.jpg
-    twitter: salen
-    website: http://example.com
-  - name: Kerstin Kvist
-    image: kvisten.jpg
-    twitter: kvisten
-    website: http://kvisten.com
-  - name: Kalle Ko
-    image: kalle.jpg
-    twitter: kalle
-    website: http://kungen.nu
-  - name: Sanna Saft
-    image: sanna.jpg
-    twitter: sannasur
-  - name: Emma Klok
-  - name: Tommy Sähl
-    image: hej.jpg
-    twitter: salen
-    website: http://example.com
-  - name: Kerstin Kvist
-    image: kvisten.jpg
-    twitter: kvisten
-    website: http://kvisten.com
-  - name: Kalle Ko
-    image: kalle.jpg
-    twitter: kalle
-    website: http://kungen.nu
-  - name: Sanna Saft
-    image: sanna.jpg
-    twitter: sannasur
-  - name: Emma Klok
+  - image: Alexandra-Falagara.jpg
+    name: Alexandra Falagara
+  - image: Cornelia-Freeman-Widarsson.jpg
+    name: Cornelia Freeman Widarsson
+  - image: Cornelia-Werkelid.jpg
+    name: Cornelia Werkelid
+  - image: Elin-Lucassi-bild.jpg
+    name: Elin Lucassi
+  - image: Emma-Lundberg.jpg
+    name: Emma Lundberg
+  - image: Fanny-Åström.JPG
+    name: Fanny Åström
+  - image: Filippa-Åkerman.jpg
+    name: Filippa Åkerman
+  - image: Foujan-Rouzbeh.jpg
+    name: Foujan Rouzbeh
+  - image: Frida-Ulvegren.jpg
+    name: Frida Ulvegren
+  - image: Frida-isolato.JPG
+    name: Frida Isolato
+  - image: Ida-Östensson.jpg
+    name: Ida Östensson
+  - image: Ida-bengtsson.jpg
+    name: Ida Bengtsson
+  - image: Jens-Lekman.jpg
+    name: Jens Lekman
+  - image: Jessica.JPG
+    name: Jessica
+  - image: Julia-Frej.jpg
+    name: Julia Frej
+  - image: Karin-didring.jpg
+    name: Karin Didring
+  - image: Kevin-Shakir.jpg
+    name: Kevin Shakir
+  - image: Kvinnohat.jpg
+    name: Kvinnohat
+  - image: Lady-Dahmer.JPG
+    name: Lady Dahmer
+  - image: LineDegerhammar-profilbild.jpg
+    name: Line Degerhammar
+  - image: Linn-flodholm.JPG
+    name: Linn flodholm
+  - image: Linnea-näslund.jpg
+    name: Linnea näslund
+  - image: Lisa-Ewald.jpg
+    name: Lisa Ewald
+  - image: LisaMagnusson.jpg
+    name: Lisa Magnusson
+  - image: Little-Jinder.jpg
+    name: Little Jinder
+  - image: Lo-Vrede-bild.jpg
+    name: Lo Vrede
+  - image: Maria-Sjöberg.jpg
+    name: Maria Sjöberg
+  - image: Maria-ramnehill.jpg
+    name: Maria ramnehill
+  - image: Max-Lye.jpg
+    name: Max Lye
+  - image: Max-Wallinder.jpg
+    name: Max Wallinder
+  - image: Mikael-Sol.JPG
+    name: Mikael Sol
+  - image: Nino-mick.jpg
+    name: Nino Mick
+  - image: Pernilla-Hallberg.jpg
+    name: Pernilla Hallberg
+  - image: Sabina-larsson.jpg
+    name: Sabina Larsson
+  - image: Sara-Elgeholm.JPG
+    name: Sara Elgeholm
+  - image: Siri-Frances.jpg
+    name: Siri Frances
+  - image: Sissela-Nordling-Blanco.jpg
+    name: Sissela Nordling Blanco
+  - image: Sofia-Zettermark.jpg
+    name: Sofia Zettermark
+  - image: Sonja.JPG
+    name: Sonja
+  - image: Stef-Gaines.jpg
+    name: Stef Gaines
+  - image: Supersnippan.jpg
+    name: Supersnippan
+  - image: Teresa-jacobsson.JPG
+    name: Teresa Jacobsson
+  - image: Tommie-X.jpg
+    name: Tommie X
+  - image: Victoria-Lewerentz.jpg
+    name: Victoria Lewerentz
+  - image: Wendel-B-strömbeck.jpg
+    name: Wendel B strömbeck
+  - image: elin-sandström-bild.2.jpg
+    name: Elin Sandström
+  - image: ellen-ekman-bild.jpg
+    name: Ellen Ekman
+  - image: ellinor-flood.JPG
+    name: Ellinor Flood
+  - image: emanuel-garnheim.jpg
+    name: Emanuel Garnheim
+  - image: fredrik-romanov.jpg
+    name: Fredrik Romanov
+  - image: gudrun-schyman.jpg
+    name: Gudrun Schyman
+  - image: josefin-mälberg.JPG
+    name: Josefin Mälberg
+  - image: josefin-svenske.2.jpg
+    name: Josefin Svenske
+  - image: klaus-piltz.JPG
+    name: Klaus Piltz
+  - image: lina-neidestam-bild.jpg
+    name: Lina Neidestam
+  - image: lisen-haglund-bild.jpg
+    name: Lisen Haglund
+  - image: lovisa-sköld.jpg
+    name: Lovisa Sköld
+  - image: malin-michea.jpg
+    name: Malin Michea
+  - image: my-gerdin.jpg
+    name: My Gerdin
+  - image: roxy-farhat,-hanna-stenman.jpg
+    name: Roxy Farhat, Hanna Stenman
+  - image: shabnam-faraee.jpg
+    name: Shabnam Faraee
+  - image: yolanda-bild.jpg
+    name: Yolanda
