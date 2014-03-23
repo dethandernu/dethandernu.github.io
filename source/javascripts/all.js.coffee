@@ -23,12 +23,14 @@ $('[data-facebook-count]').each((el, i) ->
 
 $('form#interest').submit( (e) ->
   e.preventDefault()
+  field = $(@).find('input[name="email"]')
   email = $(@).find('input[name="email"]').val()
   url = $(@).attr('action')
   return false unless email
   $.post(url, email: email)
   .success((r) ->
     alert r.message
+    field.val('')
   )
   .fail((r)->
     alert r.message
