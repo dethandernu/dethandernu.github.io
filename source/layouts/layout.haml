@@ -16,6 +16,13 @@
     %meta{content: "yes", name: "apple-mobile-web-app-capable"}/
     %meta{content: "black-translucent", name: "apple-mobile-web-app-status-bar-style"}/
 
+    -# Facebook
+    %meta{content: "F! - Det händer nu", property: "og:title"}/
+    %meta{content: "Det händer nu", property: "og:site_name"}/
+    %meta{content: "http://dethander.nu", property: "og:url"}/
+    %meta{content: "Feministiskt initiativ släpper boken Det händer Nu", property: "og:description"}/
+    %meta{content: "http://dethander.nu/images/fb.jpg", property: "og:image"}/
+
     -# Favicon and touch icons
     %link{ rel: "apple-touch-icon", sizes: "144x144", href: "apple-touch-icon-144x144-precomposed.png" }
     %link{ rel: "apple-touch-icon", sizes: "114x114", href: "apple-touch-icon-114x114-precomposed.png" }
@@ -24,7 +31,7 @@
     %link{ rel: "shortcut icon", href: "favicon.png" }
     %link{href: "http://feministisktinitiativ.se/wp-content/themes/fi/img/favicon.ico", rel: "shortcut icon"}/
 
-    %title= data.page.title || "The Middleman"
+    %title= data.page.title || "F!"
     = stylesheet_link_tag "all"
     = stylesheet_link_tag "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css"
     = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js'
