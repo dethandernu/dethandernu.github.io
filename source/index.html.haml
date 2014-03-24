@@ -58,9 +58,9 @@ title: F! - Det händer nu
         - row.each do |p|
           .small-3.columns.text-center
             - if p
-              %h5= p['name']
               - path = asset_url("images/contributors/#{p['image']}");
               .photo{'data-src' => path}
+              %h5= p['name']
             - else
               &nbsp;
 
