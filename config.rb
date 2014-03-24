@@ -108,4 +108,8 @@ configure :build do
       { icon: "apple-touch-icon-72x72-precomposed.png" },
     ]
   }
+
+  activate :gzip
+
+  activate :minify_html
 end

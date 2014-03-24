@@ -6,6 +6,7 @@ gem "middleman", "~>3.2.2"
 gem "middleman-favicon-maker"
 gem "middleman-livereload"
 gem "middleman-deploy"
+gem "middleman-minify-html"
 
 gem 'haml'
 gem 'sass'
