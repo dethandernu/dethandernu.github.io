@@ -60,7 +60,7 @@ title: F! - Det händer nu
             - if p
               %h5= p['name']
               - path = asset_url("images/contributors/#{p['image']}");
-              .photo{:style => "background-image: url(#{path})"}
+              .photo{'data-src' => path}
             - else
               &nbsp;
 

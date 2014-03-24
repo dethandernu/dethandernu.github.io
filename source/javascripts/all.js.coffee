@@ -1,4 +1,5 @@
 #= require odometer/odometer
+#= require jquery.inview/jquery.inview
 
 $('[data-twitter-count]').each((el, i) ->
   url = $(@).data('twitter-count')
@@ -34,5 +35,13 @@ $('form#interest').submit( (e) ->
   )
   .fail((r)->
     alert r.message
+  )
+)
+
+$('.photo').each( (i, el) ->
+  $(el).one('inview', (e, visible) ->
+    if visible
+      elm = $(@);
+      elm.css('background-image', "url(#{elm.data('src')})")
   )
 )
