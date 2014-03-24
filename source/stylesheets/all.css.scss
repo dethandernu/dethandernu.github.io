@@ -56,6 +56,21 @@ section {
 }
 
 #hero {
+  ::-webkit-input-placeholder {
+     color: rgba(255, 255, 255, 0.6);
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+     color: rgba(255, 255, 255, 0.6);
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: rgba(255, 255, 255, 0.6);
+  }
+
+  :-ms-input-placeholder {
+     color: rgba(255, 255, 255, 0.6);
+  }
   //background: #D71066;
   //background-image: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.16)),-webkit-linear-gradient(108deg,#CC1BA5,#D71066 90%);
   background: #D22486 image-url('images/hero.jpg') no-repeat center center;
@@ -72,7 +87,8 @@ section {
     font-weight: normal;
     line-height: normal;
     margin: 0 0 1.25rem;
-    padding: 36px 20px;
+    padding: 20px 20px;
+    height: auto;
   }
   .logo {
     position: absolute;
