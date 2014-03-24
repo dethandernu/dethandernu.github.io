@@ -28,7 +28,7 @@ title: F! - Det händer nu
 %section#info
   .container
     .row
-      .small-8.small-push-2.columns
+      .medium-8.medium-push-2.columns
         %h2.text-center
           %small Bakgrund
           Varför Det Händer Nu?
@@ -56,7 +56,7 @@ title: F! - Det händer nu
     - data.people.contributors.in_groups_of(4).each do |row|
       .row.people-row
         - row.each do |p|
-          .small-3.columns.text-center
+          .medium-3.columns.text-center
             - if p
               - path = asset_url("images/contributors/#{p['image']}");
               .photo{'data-src' => path}
@@ -67,7 +67,7 @@ title: F! - Det händer nu
 %section#party
   .container
     .row
-      .small-7.columns
+      .medium-7.columns
         %h2
           %small Releasefesten
           Releasefest på Moriskan
@@ -82,5 +82,5 @@ title: F! - Det händer nu
 %footer
   .container
     .row
-      .small-12.columns.text-center
+      .medium-12.columns.text-center
         Hör gärna av dig med åsikter och feedback till dethandernu@gmail.com

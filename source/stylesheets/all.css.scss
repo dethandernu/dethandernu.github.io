@@ -124,6 +124,26 @@ section {
   }
 }
 
+@media #{$small-only} {
+  #hero h1 {
+    font-size: 48px;
+  }
+  #hero h2.subheader {
+    font-size: 18px;
+  }
+  #hero .logo {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  #hero .share {
+    margin-top: 40px;
+    display: block;
+    float: none !important;
+    text-align: center;
+  }
+}
+
 #info {
   background: #F7F7F7 image-url('gray.jpg') no-repeat center center;
   @include background-size(cover);
