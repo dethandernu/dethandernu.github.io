@@ -84,3 +84,17 @@ title: F! - Det händer nu
     .row
       .medium-12.columns.text-center
         Hör gärna av dig med åsikter och feedback till dethandernu@gmail.com
+
+%section.slideshow
+  %ul
+    - data.people.contributors.each do |p|
+      %li
+        %figure
+          %figcaption
+            %h3= p['name']
+          %img.profile{'data-original' => asset_url("images/contributors/#{p['image']}")}
+  %nav
+    %span.icon.nav-prev
+    %span.icon.nav-next
+    %span.icon.nav-close
+  .info-keys.icon Navigate with arrow keys

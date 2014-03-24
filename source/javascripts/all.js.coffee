@@ -1,6 +1,8 @@
 #= require odometer/odometer
+#= require jquery.lazyload/jquery.lazyload
 #= require jquery.inview/jquery.inview
-
+#= require classie/classie
+#= require slideshow
 $('[data-twitter-count]').each((el, i) ->
   url = $(@).data('twitter-count')
   return unless url
@@ -45,3 +47,5 @@ $('.photo').each( (i, el) ->
       elm.css('background-image', "url(#{elm.data('src')})")
   )
 )
+
+$('img.profile').lazyload();
