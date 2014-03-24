@@ -175,6 +175,15 @@ section {
   h2 {
     margin-bottom: 30px;
   }
+  .people-row {
+    margin-top: 38px;
+    p {
+      margin-top: 16px;
+    }
+  }
+  a {
+    color: $body-font-color;
+  }
 }
 
 #people {
@@ -189,14 +198,37 @@ section {
     margin-top: 20px;
     //text-transform: uppercase;
   }
-  .photo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background: image-url('images/placeholder.png') no-repeat center center;
-    @include background-size(cover);
-    display: block;
-    margin: 0 auto;
+  a {
+    h5 {
+      @include transition(all 0.25s);
+    }
+    .photo {
+      @include transition(all 0.25s);
+    }
+    &:hover {
+      h5 { color: #4CBAAC; }
+      .photo {
+        @include scale(1.07);
+      }
+    }
+  }
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: image-url('images/placeholder.png') no-repeat center center;
+  @include background-size(cover);
+  display: block;
+  margin: 0 auto;
+  &.small {
+    width: 120px;
+    height: 120px;
+  }
+  &.large {
+    width: 320px;
+    height: 320px;
   }
 }
 
@@ -230,4 +262,43 @@ footer {
   padding: 30px 0;
   background: #4CBAAC;
   color: #fff;
+}
+
+.slideshow {
+  color: #eee;
+  h3 {
+    font-size: 18px;
+    color: #eee;
+  }
+  .profile {
+    margin-bottom: 32px;
+  }
+  figcaption {
+    .links {
+      margin-left: 8px;
+    }
+    a.fa {
+      @include transition(all 0.25s);
+      color: #eee;
+      font-size: 22px;
+      width: 44px;
+      height: 44px;
+      line-height: 40px;
+      border-radius: 50%;
+      border: 3px solid #eee;
+      position: relative;
+      top: -4px;
+      margin-left: 4px;
+    }
+    a.fa.fa-twitter:hover {
+      color: #fff;
+      background: #1BB2E9;
+      border-color: #1BB2E9;
+    }
+    a.fa.fa-link:hover {
+      color: #fff;
+      background: #D22486;
+      border-color: #D22486;
+    }
+  }
 }

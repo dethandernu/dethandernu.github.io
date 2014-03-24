@@ -60,12 +60,13 @@ title: F! - Det händer nu
       .row.people-row
         - row.each do |p|
           .medium-3.columns.text-center
-            - if p
-              - path = asset_url("images/contributors/#{p['image']}");
-              .photo{'data-src' => path}
-              %h5= p['name']
-            - else
-              &nbsp;
+            %a
+              - if p
+                - path = asset_url("images/contributors/#{p['image']}");
+                .photo{'data-src' => path}
+                %h5= p['name']
+              - else
+                &nbsp;
 
 %section#party
   .container
@@ -88,16 +89,26 @@ title: F! - Det händer nu
       .medium-12.columns.text-center
         Hör gärna av dig med åsikter och feedback till dethandernu@gmail.com
 
+
 %section.slideshow
   %ul
     - data.people.contributors.each do |p|
       %li
         %figure
-          %figcaption
-            %h3= p['name']
-          %img.profile{'data-original' => asset_url("images/contributors/#{p['image']}")}
+          - path = asset_url("images/contributors/#{p['image']}");
+          .profile.photo.large{'data-src' => path}
+          %figcaption.text-center
+            %h3
+              = p['name']
+              %span.links
+                - if twitter = p['twitter']
+                  %a.fa.fa-twitter{href: "http://twitter.com/#{twitter}", target: '_BLANK'}
+                - if link = p['link']
+                  %a.fa.fa-link{href: link, target: '_BLANK'}
+          %p.text-center
+            = p['description']
   %nav
-    %span.icon.nav-prev
-    %span.icon.nav-next
+    %span.nav-prev.fa.fa-chevron-left
+    %span.nav-next.fa.fa-chevron-right
     %span.icon.nav-close
-  .info-keys.icon Navigate with arrow keys
+  .info-keys.icon.fa Navigera med pil-tangenterna
