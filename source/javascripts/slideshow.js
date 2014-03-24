@@ -66,7 +66,7 @@
     // main grid
     this.grid = this.el.querySelector( '#people' );
     // main grid items
-    this.gridItems = [].slice.call( this.grid.querySelectorAll( '.photo' ) );
+    this.gridItems = [].slice.call( this.grid.querySelectorAll( 'a' ) );
     // items total
     this.itemsCount = this.gridItems.length;
     // slideshow grid
