@@ -21,8 +21,11 @@ title: F! - Det händer nu
           Feminismen växer så att det knakar i hela landet, Feministiskt Initiativ har för närvarande över 7000 betalande medlemmar och 30 000 följare på Facebook. Det är mer än en nätfluga. Intresset för att engagera sig i det politiska arbetet är enormt, steget från tanke till handling är kort och det startas nya kommungrupper i rasande takt. Alla vill vara en del av det historiska feministiska genombrott som sker här i Sverige 2014. Det händer nu.
         /.large.button Förhandsboka
         %form#interest{'action' => 'email.php'}
-          %input.email{:type => 'email', :name => 'email', :required => true, placeholder: 'Din e-postadress'}
-          %input.large.button{:type => 'submit', :value => 'Anmäl intresse'}
+          .row
+            .small-6.small-push-1.columns
+              %input.email{:type => 'email', :name => 'email', :required => true, placeholder: 'Din e-postadress'}
+            .small-4.small-pull-1.columns
+              %input.large.button.expand{:type => 'submit', :value => 'Anmäl intresse'}
 
 
 %section#info

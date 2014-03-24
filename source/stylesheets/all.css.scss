@@ -18,6 +18,19 @@
 
 @import 'foundation_and_overrides';
 
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: rgba(255,255,255,0.5);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: rgba(255,255,255,0.5);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: rgba(255,255,255,0.5);
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: rgba(255,255,255,0.5);
+}
+
 /* prefix all CSS3 tags */
 
 body {
@@ -82,7 +95,6 @@ section {
     font-size: 29px;
     border-style: solid;
     border-width: 3px;
-    cursor: pointer;
     font-family: Klinic, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     line-height: normal;
@@ -110,10 +122,6 @@ section {
   .button {
     margin-bottom: 130px;
   }
-  .button.large {
-    //width: 400px;
-  }
-
   .share {
     margin-top: 10px;
     .count {
