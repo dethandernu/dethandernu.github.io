@@ -101,6 +101,7 @@
     this.ctrlNext.addEventListener( 'click', function() { self._navigate( 'next' ); } );
     this.ctrlClose.addEventListener( 'click', function() { self._closeSlideshow(); } );
 
+    this.slideshow.addEventListener( 'click', function() { self._closeSlideshow(); } );
     // window resize
     window.addEventListener( 'resize', function() { self._resizeHandler(); } );
 
