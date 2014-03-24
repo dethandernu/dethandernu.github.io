@@ -90,7 +90,9 @@ configure :build do
   activate :asset_hash
 
   # Use relative URLs
-  activate :relative_assets
+  # activate :relative_assets
+
+  set :http_prefix, 'http://cdn.popdevelop.net/dethander/'
 
   # Compress PNGs after build
   # First: gem install middleman-smusher

@@ -6,7 +6,7 @@ title: F! - Det händer nu
   .container
     .row
       .small-12.columns
-        = image_tag 'images/fi.png', class: 'logo'
+        = image_tag 'fi.png', class: 'logo'
         .share.right
           %a.small.button{href: "https://twitter.com/intent/tweet?url=http%3A%2F%2Fxn--dethnder-3za.nu&text=%23deth%C3%A4ndernu", :target => '_BLANK'}
             %i.fa.fa-twitter.fa-2x
@@ -42,19 +42,19 @@ title: F! - Det händer nu
         .row.people-row
           .medium-3.columns.text-center
             %a{href: 'http://twitter.com/ninjalajs', target: '_BLANK'}
-              .photo.smallest{'data-src' => asset_url("images/crew/lisa.jpg")}
+              .photo.smallest{'data-src' => image_path("crew/lisa.jpg")}
               %p Lisa Rydje
           .medium-3.columns.text-center
             %a{href: 'http://twitter.com/EllenArthina', target: '_BLANK'}
-              .photo.smallest{'data-src' => asset_url("images/crew/ellen.jpg")}
+              .photo.smallest{'data-src' => image_path("crew/ellen.jpg")}
               %p Ellen Magnusson
           .medium-3.columns.text-center
             %a{href: 'http://twitter.com/jeppsson_sara', target: '_BLANK'}
-              .photo.smallest{'data-src' => asset_url("images/crew/sara.jpg")}
+              .photo.smallest{'data-src' => image_path("crew/sara.jpg")}
               %p Sara Jeppson
           .medium-3.columns.text-center
             %a{href: 'http://twitter.com/MyKnas', target: '_BLANK'}
-              .photo.smallest{'data-src' => asset_url("images/crew/felicia.jpg")}
+              .photo.smallest{'data-src' => image_path("crew/felicia.jpg")}
               %p Felicia Piltz
 
 %section#people
@@ -70,7 +70,7 @@ title: F! - Det händer nu
           .medium-3.columns.text-center
             %a
               - if p
-                - path = asset_url("images/contributors/#{p['image']}");
+                - path = image_path("contributors/#{p['image']}");
                 .photo{'data-src' => path}
                 %h5= p['name']
               - else
@@ -103,7 +103,7 @@ title: F! - Det händer nu
     - data.people.contributors.each do |p|
       %li
         %figure
-          - path = asset_url("images/contributors/#{p['image']}");
+          - path = image_path("contributors/#{p['image']}");
           .profile.photo.large{'data-src' => path}
           %figcaption.text-center
             %h3
