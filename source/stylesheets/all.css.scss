@@ -280,10 +280,15 @@ footer {
 
 .slideshow {
   color: #eee;
-  .close {
+  a.close {
+    opacity: 0.5;
     position: fixed;
     top: 48px;
     right: 48px;
+    @include transition(all 0.25s);
+    &:hover {
+      opacity: 1;
+    }
   }
   h3 {
     font-size: 18px;
