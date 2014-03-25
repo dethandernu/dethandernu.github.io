@@ -64,7 +64,7 @@ title: F! - Det händer nu
         %h2.text-center
           %small Medverkande
           Vi är med i boken
-    - data.people.contributors.in_groups_of(4).each do |row|
+    - list = data.people.contributors.sort_by { |p| p[:name] }.in_groups_of(4).each do |row|
       .row.people-row
         - row.each do |p|
           .medium-3.columns.text-center
