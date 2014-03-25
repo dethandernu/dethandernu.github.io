@@ -1,3 +1,4 @@
+#= require fastclick/lib/fastclick
 #= require odometer/odometer
 #= require jquery.lazyload/jquery.lazyload
 #= require jquery.inview/jquery.inview
@@ -49,3 +50,7 @@ $('.photo').each( (i, el) ->
 )
 
 $('img.profile').lazyload();
+
+window.addEventListener('load', ->
+    FastClick.attach(document.body);
+, false)
