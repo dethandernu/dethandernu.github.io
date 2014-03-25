@@ -277,6 +277,7 @@
   }
 
   CBPGridGallery.prototype._closeSlideshow = function( pos ) {
+    window.ga('send', 'pageview');
     // remove class slideshow-open from the grid gallery elem
     classie.removeClass( this.el, 'slideshow-open' );
     // remove class animatable from the slideshow grid
