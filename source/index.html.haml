@@ -89,8 +89,6 @@ title: F! - Det händer nu
 
 
 %section.slideshow
-  %a.close
-    = image_tag 'images/cross.png'
   %ul
     - (data.people.crew + data.people.contributors.sort_by { |p| p.name }).each do |p|
       %li
@@ -106,6 +104,8 @@ title: F! - Det händer nu
                   %a.fa.fa-link{href: link, target: '_BLANK'}
           %p.text-center
             = p.description
+  %a.close
+    = image_tag 'images/cross.png'
   %nav.hide-for-touch
     %span.nav-prev.fa.fa-chevron-left
     %span.nav-next.fa.fa-chevron-right
