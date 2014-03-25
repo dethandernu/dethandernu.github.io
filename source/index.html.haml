@@ -43,7 +43,7 @@ title: F! - Det händer nu
           - data.people.crew.each do |p|
             .medium-3.columns.text-center
               %a.pop
-                .photo.smallest{'data-src' => image_path(p.image)}
+                .photo.smallest{'data-src' => image_path(p.image), 'data-name' => p.name}
                 %p= p.name
 
 %section#people
