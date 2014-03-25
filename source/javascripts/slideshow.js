@@ -92,6 +92,13 @@
     // open the slideshow when clicking on the main grid items
     this.gridItems.forEach( function( item, idx ) {
       item.addEventListener( 'click', function() {
+        try {
+          var img = $(item).find('.photo').data('src');
+          var parts = img.split('/');
+          var p = parts.pop();
+          parts = p.split('.')
+          window.ga('send', 'pageview', '/people/' + parts[0]);
+        } catch(e) {}
         self._openSlideshow( idx );
       } );
     } );
