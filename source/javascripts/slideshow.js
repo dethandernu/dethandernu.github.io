@@ -131,7 +131,6 @@
     } );
 
     // trick to prevent scrolling when slideshow is visible
-/*
     window.addEventListener( 'scroll', function() {
       if ( self.isSlideshowVisible ) {
         window.scrollTo( self.scrollPosition ? self.scrollPosition.x : 0, self.scrollPosition ? self.scrollPosition.y : 0 );
@@ -140,7 +139,6 @@
         self.scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
       }
     });
-*/
   };
 
   CBPGridGallery.prototype._openSlideshow = function( pos ) {

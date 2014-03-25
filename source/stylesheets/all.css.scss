@@ -45,6 +45,11 @@ body {
   outline: none !important;
 }
 
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
 .button {
   background: transparent;
   border-color: #fff;
@@ -104,7 +109,7 @@ section {
   }
   .logo {
     position: absolute;
-    left: 0;
+    left: 14px;
     top: 29px;
   }
   h1 {
