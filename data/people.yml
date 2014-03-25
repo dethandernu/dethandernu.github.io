@@ -1,16 +1,16 @@
 crew:
   - image: crew/lisa.jpg
     name: Lisa Rydje
-    description: Lisa Rydje studerar fulltid och driver samtidigt en rad feministiska projekt. Hon är redaktör för denna boken och är inte nöjd förrän feminismen är så självklar att den inte behövs längre.
+    description: Lisa Rydje studerar fulltid och driver samtidigt en rad feministiska projekt. Hon är redaktör för denna bok och är inte nöjd förrän feminismen är så självklar att den inte längre behövs.
     link: http://ninjalajs.tumblr.com/
     twitter: ninjalajs
   - image: crew/ellen.jpg
     name: Ellen Magnusson
-    description: Ellen Magnusson är en av redaktörerna för Det händer nu, pusslar gärna hundra projekt på en gång och tycker att det behövs mer kunskap, mod och visioner i maktens rum. Sysslar med kläder och kostymdesign och vill samtidigt skriva både skönlitterära historier och politisk historia.
+    description: Ellen Magnusson är en av redaktörerna för Det händer nu, pusslar gärna hundra projekt på en gång och tycker att det behövs mer kunskap, mod och visioner i maktens rum. Vill skriva både skönlitterära historier och politisk historia.
     link:
     twitter: EllenArthina
   - image: crew/sara.jpg
-    name: Sara Jeppson
+    name: Sara Jeppsson
     description: Sedan insikten om att det är möjligt att tillsammans kunna förändra världen förankrade sig i Sara har hen spenderat det mesta av sin vakna tid med antirasistiska feministiska projekt och engagemang i F! Malmö.
     link:
     twitter: jeppsson_sara
