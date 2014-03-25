@@ -101,7 +101,7 @@ title: F! - Det händer nu
 
 %section.slideshow
   %ul
-    - data.people.contributors.each do |p|
+    - data.people.contributors.sort_by { |p| p[:name] }.each do |p|
       %li
         %figure
           - path = image_path("contributors/#{p['image']}");
