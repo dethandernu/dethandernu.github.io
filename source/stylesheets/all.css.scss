@@ -191,7 +191,7 @@ section {
 }
 
 #people {
-  .row.people-row {
+  .row.people-row .columns {
     margin-bottom: 52px;
   }
   h2 {
@@ -280,6 +280,11 @@ footer {
 
 .slideshow {
   color: #eee;
+  .close {
+    position: fixed;
+    top: 48px;
+    right: 48px;
+  }
   h3 {
     font-size: 18px;
     color: #eee;
