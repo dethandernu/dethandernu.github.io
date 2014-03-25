@@ -71,7 +71,7 @@ title: F! - Det händer nu
             %a
               - if p
                 - path = image_path("contributors/#{p['image']}");
-                .photo{'data-src' => path}
+                .photo{'data-src' => path, 'data-name' => p[:name]}
                 %h5= p['name']
               - else
                 &nbsp;
