@@ -1,385 +1,406 @@
+crew:
+  - image: crew/lisa.jpg
+    name: Lisa Rydje
+    description:
+    link:
+    twitter: ninjalajs
+  - image: crew/ellen.jpg
+    name: Ellen Magnusson
+    description:
+    link:
+    twitter: EllenArthina
+  - image: crew/sara.jpg
+    name: Sara Jeppson
+    description:
+    link:
+    twitter: jeppsson_sara
+  - image: crew/felicia.jpg
+    name: Felicia Piltz
+    description:
+    link:
+    twitter: MyKnas
 contributors:
-  - image: Alexandra-Falagara.jpg
+  - image: contributors/Alexandra-Falagara.jpg
     name: Alexandra Falagara
     description: Alexandra Falagara arbetar med visuell kommunikation för uppdragsgivare som Forum för levande historia, The New York Times, Arena och har även varit en del av konstkollektivet Ful. Är sedan 2012 art director och formgivare på tidskriften Bang, i samarbete med Brita Lindvall. De har för Bangs räkning tagit fram en formgivning baserad på feministiska o normkritiska strategier. I vår läser hon en forskningsförberedande kurs på Konstfack och firar 10 års samarbete med Bang.
     link:
     twitter:
-  - image: Cornelia-Freeman-Widarsson.jpg
+  - image: contributors/Cornelia-Freeman-Widarsson.jpg
     name: Cornelia Freeman
     description: Cornelia Widarsson kom till jorden 1993, där hon snabbt fick bekantat sig med 90­talets feministikoner. Med visdomsord från Buffy och Xena i bakhuvudet växte hon upp till att bli en krigare, fast med penna istället för svärd. Nu bor hon i Skåne där hon ritar feministiskt riktade bilder, livnär sig på tårar från vita kränkta män och är arg på samhället. Cornelias dröm att bli så stark att hon kan krossa patriarkatet på mitten.
     link:
     twitter:
-  - image: TiffanyKronlof.jpg
+  - image: contributors/TiffanyKronlof.jpg
     name: Tiffany Kronlöf
     description: 'Tiffany Kronlöf är musiker och komiker. Hon är aktuell med en Humorserie för SVT Play som hon skrivit tillsammans med sin syster, Bianca och Sara Haag. Hon har tidigare skrivit låten "Så jävla PK". utöver hurmorprojekten gör Tiffany feministisk reggae under namnet Tiffany K. Texten i boken är en låttext från hennes kommande skiva.'
     link:
     twitter:
-  - image: Cornelia-Werkelid.jpg
+  - image: contributors/Cornelia-Werkelid.jpg
     name: Cornelia Werkelid
     description: Cornelia Werkelid är 19 år och från Malmö. Hon pluggar genusvetenskap och jobbar lite extra. Tror på feminism, gör fanzin, gillar att pyssla, äta och att inte stressa.
     link:
     twitter:
-  - image: IsabelleWahlf.jpg
+  - image: contributors/IsabelleWahlf.jpg
     name: Isabelle Wahlf
     description: Isabelle Wahlf, aka Libeth Milf, är bla queerfeministisk sexrådgivare i radio och tidning. Jobbar på RFSL ungdom och kämpar för att krossa hetero- och cisnormer.
     link:
     twitter: lismilf
-  - image: Elin-Lucassi-bild.jpg
+  - image: contributors/Elin-Lucassi-bild.jpg
     name: Elin Lucassi
     description: Elin Lucassi är serietecknare, illustratör och skribent. Grunden i hennes arbete är att hitta kärnan och fundera över vadsaker och ting EGENTLIGEN handlar om för att på så sätt kunna blottlägga det som skaver. Hon har valtatt skapa i stället för att deppa ihop totalt över sakernas tillstånd. Hon vill vara en tänkande, kännande människa och utgår med andra ord alltid från en feministisk och demokratisk grundsyn på tillvaron. För övrigt kämpar hon för att uppfostra framtidens män, pratar väldigt mycket om litteratur samt samlar på bra kvinnfolk.
     link:
     twitter:
-  - image: HannaMartinson.jpg
+  - image: contributors/HannaMartinson.jpg
     name: Hanna Martinson
     description: Hanna läser andra året på gymnasiet med inriktning Estet Musik, men att teckna och måla är ändå det största intresset. Mina vänner brukar fråga varför jag inte valde Bild och form istället, men för mig är det skitviktigt att få utvecklas i min egen takt och fokusera på det jag känner för just nu. Hösten 2013 startade Hanna upp Unga Feminister Uddevalla tillsammans med en kompis, och i framtiden vill hon bli tatuerare.
     link:
     twitter:
-  - image: Emma-Lundberg.jpg
+  - image: contributors/Emma-Lundberg.jpg
     name: Emma Lundberg
     description: Emma Katla Lundberg är journalist och redaktör för den antirasistiska tidningen Mana. Queeranarkistisk feminist och aktivist. Driver bloggen thewhoryspirit.wordress.com. Bor i Malmö.
     link: http://thewhoryspirit.wordpress.com/
     twitter: FEMMANAZI
-  - image: Emma-Ikekwe.jpg
+  - image: contributors/Emma-Ikekwe.jpg
     name: Emma Chika Ikekwe
     description: Emma Chikanelle Eunice Ikekwe, är född 1992 och är uppvuxen i Norsborg, Botkyrka. Just nu arbetar Emma bland annat som radiopedagog på mediehuset Fanzingo i Alby. När hon inte hänger där hittar ni henne på Skärholmen Kulturhuset Stadsteatern där hon går under publikvärd och foajéansvarig. Är aktiv i ungdomsorganisationen Megafonen Norra Botkyrka och kandiderar 2014 till riksdagen för Feministiskt initiativ.
     link:
     twitter:
-  - image: Fanny-Astrom.jpg
+  - image: contributors/Fanny-Astrom.jpg
     name: Fanny Åström
     description: Fanny Åström driver bloggen Den rabiata orakade rabiesfeministen Fanny. Av feministiska frågor intresserar hon sig mest för hur patriarkalt förtryck tar sig uttryck i kärleksrelationer och automatiserat barnafödande. Annars försöker hon med varierande resultat prioritera sina relationer med coola kvinnor framför umgänge med män.
     link: http://www.arsinoe.se/
     twitter:
-  - image: Filippa-Akerman.jpg
+  - image: contributors/Filippa-Akerman.jpg
     name: Filippa Åkerman
     description: Filippa Åkerman läser till läkare och bloggar på feministbloggen.blogspot.com sedan drygt fyra år tillbaka. Hon brinner för sina medsystrar befrielse och ett samhälle fritt från begränsande normer och könsroller där alla kan vara sig själva. Hon drömmer om att kunna pussa sin ﬂickvän ute på stan och känna sig lika lugn som ett heteropar.
     link: http://www.feministbloggen.blogspot.com
     twitter: feministbloggen
-  - image: Foujan-Rouzbeh.jpg
+  - image: contributors/Foujan-Rouzbeh.jpg
     name: Foujan Rouzbeh
     description: Foujan Rouzbeh jobbar på Kulturhuset Stadsteatern som producent och koordinator, samt på Sveriges ungdomsråd som samordnare. Hon sitter även i styrelsen för FARR och Individuell människohjälp. Utöver det är Foujan frilansande krönikör och skribent för bland annat Fria Tidningar och hon föreläser om anitrasism, aktivism och mänskliga rättigheter. Foujan startade även upp Soppkök Stockholm, Hijabuppropet och flyktingarna.se. Sen tidigare har hon arbetat med bland andra  Amnesty, SR, Expo och Scouterna. Foujan kandiderar för F! till riksdagen i höst.
     link:
     twitter:
-  - image: Frida-Ulvegren.jpg
+  - image: contributors/Frida-Ulvegren.jpg
     name: Frida Ulvegren
     description: Frida Ulvegren är serietecknare och kulturpedagog och medlem i det feministiska serietecknarnätverket Dotterbolaget. Ulvegren debuterade på Kolik förlag år 2011 med novellserien Tack & förlåt. Hennes redan brett omtalade självbiografiska serieroman Fridas resor släpptes i september 2013 på Kartago förlag.
     link: http://www.fridaswork.wordpress.com
     twitter:
-  - image: Frida-isolato.jpg
+  - image: contributors/Frida-isolato.jpg
     name: Frida Isotalo
     description: Frida Isotalo är konstnär och illustratör. Studerar till bildlärare på Konstfack, gör för närvarande sitt examensarbete om Lolita-kulturen. Hon är 32 år och stolt medlem av det feministiska kvinno- och transseparatistiska serienätverket Dotterbolaget. Älskar fika och mörker.
     link:
     twitter:
-  - image: Ida-Ostensson.jpg
+  - image: contributors/Ida-Ostensson.jpg
     name: Ida Östensson
     description: Ida Östensson har varit aktiv inom jämställdhetsfrågor hela sitt liv. 2010 grundade Ida Crossing Boarders, en stiftelse som jobbar för ett jämställt och inkluderande samhälle där alla ska kunna nå sin fulla potential. Hon är även en av initiativtagarna till FATTA som jobbar mot sexuellt våld - för samtycke! För mer information kan ni besöka www.crossingboarders.se och fatta.nu
     link: http://www.fatta.nu
     twitter:
-  - image: Ida-bengtsson.jpg
+  - image: contributors/Ida-bengtsson.jpg
     name: Ida Bengtsson
     description: Ida Bengtsson är Malmöbon som skriver texter, målar tavlor och skapar illustrationer så det står det härliga till.
     link:
     twitter:
-  - image: Jens-Lekman.jpg
+  - image: contributors/Jens-Lekman.jpg
     name: Jens Lekman
     description: Jens Lekman är en popmusiker, uppvuxen i Hammarkullen utanför Göteborg. Han har släppt fyra album och turnerat en massa, mest i USA och Australien där han bodde ett tag. Han har jobbat med Drew Barrymore på soundtracket till filmen Whip It och fått en textrad dedikerad till sig i en låt av ungdomsidolen Tracey Thorn.
     link: http://www.jenslekman.com
     twitter:
-  - image: Jessica.jpg
+  - image: contributors/Jessica.jpg
     name: Jessica Hallbäck
     description: Jessica är gatukonstnär och skapare av de samhällskritiska djuren #angryanimals. – Att vara feminist är en självklarhet för mig och det känns jättekul att få vara med i det här projektet. Nu i skapandeprocessen tänker jag så det knakar, jag vill förmedla självklarheten med feminismen i mitt bidrag. säger Jessica som nyligen haft en utställning på galleri Momangen i Stockholm där hon också är verksam. Läs mer om ett av Jessicas projekt här: http://www.gatukonst.se/2013/11/30/no­borders­no­nations­just­people/.Här medverkar Jessica i ett tv­program om gatukonst: http://www.youtube.com/watch?v=L_ZkGfjexoA och http://www.gatukonst.se/2013/11/30/no­borders­no­nations­just­people/
     link:
     twitter:
-  - image: juliah.jpg
+  - image: contributors/juliah.jpg
     name: Julia Hansen
     description: Julia Hansen är en serietecknare och Dotterbolagare bosatt i Malmö. Hon tecknar främst självbiografisk med kroppen och ilska som utgångspunkt.
     link:
     twitter:
-  - image: Julia-Frej.jpg
+  - image: contributors/Julia-Frej.jpg
     name: Julia Frej
     description: Julia Frej är en musiker bosatt i Stockholm. Hon har skrivit musik åt TV samt varit programledare i Kaka på Kaka, Kakan och Julia samt Ink Master Sverige. Gästat Historieätarna med gitarren samt ska snart iväg med Mauro Scocco, Titiyo och company för att spela i Pluras Kök. Hon har ett förflutet som modell och har hållt sig lite i bakgrunden med musiken, gästat andra samt främst varit live-artist och spelat skivor. Nu släpper hon snart singel själv och planen är en EP innan årets slut. Hon spelar ofta live med sitt band och har stora planer. Under tiden är hon bland annat gitarrist åt Helena Gutarra i Gutarra and the amazonas samt kompade och körade nyligen Cleo och Kristin Amparo i en ny version av Fatta-låten. Hon är politisk i allt hon gör och har varit delaktig i fatta-kampanjen, jag agerar-kampanjen samt jobbat mot trafficking. Hennes dröm lever hon redan, drömmen är att få leva i den och utveckla den hela livet och få ut alla musik hon skriver.
     link:
     twitter: juliafrej
-  - image: JuliaKjellsson.jpg
+  - image: contributors/JuliaKjellsson.jpg
     name: Julia Kjellsson
     description: Julia Kjellsson, 22, tecknar, målar, syr, hänger, ifrågasätter och dricker kaffe. Allra mest pluggar hon modedesign och vill inrikta sig på hållbart och könlöst mode.
     link:
     twitter:
-  - image: Karin-didring.jpg
+  - image: contributors/Karin-didring.jpg
     name: Karin Didring
     description: Karin Didring jobbar som redaktör, formgivare och serietecknare.
     link: http://www.didring.se
     twitter:
-  - image: Kevin-Shakir.jpg
+  - image: contributors/Kevin-Shakir.jpg
     name: Kevin Shakir
     description: Kevin Shakir är en engagerad Malmöit. Mycket av hans tid går åt att agera sångare i indiebandet Poplöst.Förutom att strida för alla människors lika värde kämpar han för en mer demokratisk svensk skola. Kevin sitter i förbundsstyrelsen för organisationen Sveriges elevråd - SVEA och jobbar med att lyfta elever i skolpolitiken. Vill du någonsin prata om feminism och antirasism lovar han att bjuda på kaffe.
     link: http://www.poplost.se
     twitter: kevinshakir
-  - image: Kvinnohat.jpg
+  - image: contributors/Kvinnohat.jpg
     name: Kvinnohat
     description: Det feministiska instagramkontot @kvinnohat har sedan januari 2013 spridit bevismaterial på det ojämställda samhälle vi lever i. Där visas bland annat sexistisk reklam och stereotypa könsroller upp, men också peppiga artiklar och exempel ur populärkulturen uppmärksammas på kontot. Med cirka 700 postade bilder och över 34 000 följare är @kvinnohat en feministisk maktfaktor att räkna med!
     link: instagram.com/kvinnohat
     twitter: kvinnohat
-  - image: Lady-Dahmer.jpg
+  - image: contributors/Lady-Dahmer.jpg
     name: Lady Dahmer
     description: Natashja Psomas Blomberg beskriver sig själv som en nagel i ögat på könsrollssamhället och en spark i pungen på patriarkatet. Egenföretagande skribent som driver Sveriges största blogg om feminism, där hon bland annat skriver om föräldraskap, genus och politiken i både samhälle och det privata.
     link: http://ladydahmer.nu/
     twitter: ladydahmer
-  - image: LineDegerhammar-profilbild.jpg
+  - image: contributors/LineDegerhammar-profilbild.jpg
     name: Line Degerhammar
     description:
     link: http://www.linedegerhammar.se/
     twitter:
-  - image: Linn-flodholm.jpg
+  - image: contributors/Linn-flodholm.jpg
     name: Linn Flodholm
     description: Linn Flodholm Olofsson är studerande vid Jakobsbergs folkhögskola, konstnärligt projektår, i Stockholm. En feminist som älskar att rita. Hennes dröm är att jobba som illustratör.
     link: http://instagram.com/linnfoillustration
     twitter:
-  - image: Linnea-naslund.jpg
+  - image: contributors/Linnea-naslund.jpg
     name: Linnea Näslund
     description: Linnea Näslund Rabb är 20 år. Hon vill kalla sig en levnadsglad människa som älskar att teckna, helst teckningar som har ett syfte och budskap. Linnea  tror på jämlikhet och respekt för individen, därför är hon feminist. För att se mer av Linnea gå då in på hennes instagram @linneaokja
     link: http://instagram.com/linneaokja
     twitter:
-  - image: Lisa-Ewald.jpg
+  - image: contributors/Lisa-Ewald.jpg
     name: Lisa Ewald
     description: Lisa Ewald är bland annat tecknare och målare bosatt i Malmö. Hon har gjort serieboken Allt kommer bli bra. Feminismen har räddat hennes liv sen 1987.
     link:
     twitter:
-  - image: lisa-magnusson.jpg
+  - image: contributors/lisa-magnusson.jpg
     name: Lisa Magnusson
     description: Lisa Magnusson är frilansjournalist och kolumnist.
     link:
     twitter: lisamagnusson
-  - image: Little-Jinder.jpg
+  - image: contributors/Little-Jinder.jpg
     name: Little Jinder
     description: Josefine 'Little' Jinder är en samtidsreligös artist, låtskrivare och producent från Stockholm.
     link:
     twitter: littlejinder
-  - image: Lo-Vrede-bild.jpg
+  - image: contributors/Lo-Vrede-bild.jpg
     name: Lo Vrede
     description: Lo Vrede. Antifascistisk aktivist och radikalfeminist. Grafisk designer som för överlevnad förenar politiskt engagemang med formintresse. Kärleken till litteratur och poesi är ett behov, som ett skrik från det inre. Tvångsmässig relation till att bygga meningar med ord. Skapar oljud under namnet Low Reverse när tiden ger. Byggd av kontraster och dramatik. fantasidjur.com och lovrede.blogspot.se
     link: http://fantasidjur.com
     twitter:
-  - image: Maria-Sjoberg.jpg
+  - image: contributors/Maria-Sjoberg.jpg
     name: Maria Sjöberg
     description: Maria Sjöberg är aktiv i Feministiskt Initiativ, digital strateg till yrket, gamer på fritiden och brinner för asiatisk subkultur.
     link:
     twitter:
-  - image: Maria-ramnehill.jpg
+  - image: contributors/Maria-ramnehill.jpg
     name: Maria Ramnehill
     description: Maria Ramnehill, frilansskribent och transfeminist.
     link:
     twitter:
-  - image: Max-Lye.jpg
+  - image: contributors/Max-Lye.jpg
     name: Max Lye
     description: Aldrig tidigare har patriarkatet känts så mossigt som när en möter Max Lye. Genom sin icke könsdefinerande musik där kön, icke kön och samhällets olika skick känner igen sig flyttar han fokus från kön till känslor. 2014 hoppas han att alla blir feminister, anti-rasister och bara helt enkelt fabulöister. Med hela sitt jävla hjärta hoppas han att de inser vad Vår största vitala vision borde vara, ett samhälle utan normer med jämställdhet åt alla.
     link: https://soundcloud.com/maxlye
     twitter:
-  - image: Max-Wallinder.jpg
+  - image: contributors/Max-Wallinder.jpg
     name: Max Wallinder
     description: Max Wallinder. Gift med Hanna. Förälder till Frank. Socialist. Grundskollärare.
     link:
     twitter: talgboll
-  - image: Mikael-Sol.jpg
+  - image: contributors/Mikael-Sol.jpg
     name: Mikael Sol
     description: Mikael Sol är en serietecknare och serietidningsredaktör som är uppvuxen i Stockholms södra förorter, men som lever sitt liv fullt ut i Malmö sedan några år tillbaka. Han är självklart feminist. När han inte jobbar eller spelar TV-spel tycker han om att göra absolut ingenting.
     link: http://mikaelsol.se/
     twitter: mikaelsol
-  - image: Nastheo-Osman.jpg
+  - image: contributors/Nastheo-Osman.jpg
     name: Nastheo Osman
     description: Nasteho Osman , 23 år , spoken word artist, sveriges första kvinnliga battlerappare, projektledare för ice cold BATTLES  i Umeå.
     link:
     twitter:
-  - image: Nino-mick.jpg
+  - image: contributors/Nino-mick.jpg
     name: Nino Mick
     description: Nino Mick, född 1990, är scenpoet och aktivist som brinner för transfrågor, hbtq-frågor, asylrätt och feminism. Håller på med Poetry Slam (svensk mästare 2013) och gör poesiframträdanden och workshops runt om i landet och Norden. Hen är även med i Poesi Riot, ett trans-, queer- och kvinnoseparatistiskt poetkollektiv i Malmö.
     link: http://www.ninomick.se
     twitter:
-  - image: Pernilla-Hallberg.jpg
+  - image: contributors/Pernilla-Hallberg.jpg
     name: Pernilla Hallberg
     description: Pernilla Hallberg brinner för frågor om människors lika värde med olika förutsättningar. Detta leder ofta till frågor om funktionsnedsättningar och feminism. Hon har bloggen Criptografi [Sic!] som med humor och poesi behandlar viktiga frågor blandat med trams. Bloggen finns på criptografi.blogspot.se och välkomnar dig om du ännu inte hittat dit.
     link: http://www.criptografi.blogspot.se
     twitter:
-  - image: Sabina-larsson.jpg
+  - image: contributors/Sabina-larsson.jpg
     name: Sabina Larsson
     description: Sabina Larsson är bosatt i Gävle och går en ky­utbildning som drivs av Idévärlden i Bollnäs med inriktning grafisk design och kommunikation. Om ni vill se mer av Sabina kan ni gå in på http://www.sabinalarsson.se/index.html
     link: http://www.sabinalarsson.se/index.html
     twitter:
-  - image: Sara-Elgeholm.jpg
+  - image: contributors/Sara-Elgeholm.jpg
     name: Sara Elgeholm
     description: Sara Elgeholm är serietecknare och illustratör och för tillfället bosatt och verksam i Göteborg. Förutom att teckna arbetar Sara deltid som personlig assistent och tycker mycket om att cykla, bada och dansa. Hen är medlem i det feministiska seriekollektivet Dotterbolaget.
     link:
     twitter:
-  - image: Siri-Frances.jpg
+  - image: contributors/Siri-Frances.jpg
     name: Siri Frances
     description: Siri Frances (f. 1992) är feminist, konstnär och serietecknare ifrån Norrköping. Med text som huvudmedium undersöker hon omvärlden och sig själv i ett poetiskt konstnärskap som omfamnar det som inte brukar ges plats. I hennes serier ligger fokus på feminism och normkritik.Just nu är hon nybliven redaktör för Tidningen Jelly, en queer konsttidskrift vars första nummer kommer släppas under 2014
     link: http://sirifrances.se
     twitter:
-  - image: Sissela-Nordling-Blanco.jpg
+  - image: contributors/Sissela-Nordling-Blanco.jpg
     name: Sissela Nordling Blanco
     description: Sissela Nordling Blanco är sedan 2011 talesperson för Feministiskt initiativ. Hon har en bakgrund i den antirasistiska rörelsen och i hbtq-rörelsen. Inom Fi har hon länge varit framstående med att utveckla partiets antirasistiska politik och intersektionella perspektiv. 2014 ställer hon upp till riksdagen och till Stockholms fullmäktige.
     link:
     twitter:
-  - image: Sofia-Zettermark.jpg
+  - image: contributors/Sofia-Zettermark.jpg
     name: Sofia Zettermark
     description: Sofia Zettermark är en 24-årig läkarstudent med feminism och rosetter som vapen, och rättvisa som mål. Hon har tidigare läst genusvetenskap och skrev sin C-uppsats om tjejers bloggande. Hon gillar att vinna argumentationer och läsa populärvetenskap, men avskyr den skånska vintern. Bloggar på http://zettermark.blogg.se om feminism, hbtq-frågor och vardagsaktivism.
     link: http://zettermark.blogg.se
     twitter:
-  - image: Sonja.jpg
+  - image: contributors/Sonja.jpg
     name: Sonja Abrahamsson
     description: Sonja Abrahamsson har en längtan bort från det kroppsbundna. Bokstavligt talat. Hon längtar efter att vara ett svävande intellekt som aldrig behöver äta eller åka buss. Men nu när hon ändå har denna kropp så passar hon på att bland annat blogga och krönikera om livet.
     link: http://www.hejsonja.se
     twitter: hejsonja
-  - image: Stef-Gaines.jpg
+  - image: contributors/Stef-Gaines.jpg
     name: Stef Gaines
     description: Stef Gaines är född i Stockholm under det magiska året 1985. Utbildad serietecknare, självlärd entusiast. Bor i ett hus i en skog vid ett hav i en stad, och staden är Stockholm.
     link:
     twitter:
-  - image: Supersnippan.jpg
+  - image: contributors/Supersnippan.jpg
     name: Supersnippan
     description: Supersnippan är facebooksidan som startade för 3 år sedan och som nu har över 40000 anhängare. En feministisk frizon med dagliga tips och pepp. Supersnippan är också superhemliga, ingen vet ännu vem som ligger bakom konton... Men den 20 april kommer dom på releasefesten till boken. Spännande!Supersnippan drivs av två ungdomsvänner som älskar kvinnor och kvinnors historia. Idag bor dom I Stockholm och drömmer om ett samhälle där alla är feminister.
     link: https://www.facebook.com/Supersnippan?fref=ts
     twitter: supersnippan
-  - image: Teresa-jacobsson.jpg
+  - image: contributors/Teresa-jacobsson.jpg
     name: Teresa Jacobsson
     description: Teresa Jacobsson. Född 1989 i Umeå och numera bosatt i Malmö. När hon inte målar så jobbar hon på en förskola. Målar och tecknar ofta monster och självporträtt. Helst samtidigt. Har tidigare medverkat i mindre utställningar  och gjort affischer.
     link: http://teresajacobsson.tumblr.com/
     twitter:
-  - image: Tommie-X.jpg
+  - image: contributors/Tommie-X.jpg
     name: Tommie X
     description: Tommie X är creative director och stylist för Rebecca & Fiona och Little Jinder, och är alltid inblandad i någon form av klubbprojekt i Stockholm antingen som DJ eller värdinna. Han driver klädmärket Faggot Apparel och bloggar på Bon. Tommie älskar chips och peruker och hans stora dröm är att uppfinna en tidsmaskin och åka med den tillbaka till 90-talet och bli eurodiscostjärna.
     link: http://bon.se/blogs/tommie-x/
     twitter: tommieX
-  - image: Victoria-Lewerentz.jpg
+  - image: contributors/Victoria-Lewerentz.jpg
     name: Victoria Lewerentz
     description: Victoria Lundin Lewerentz, snäll och blyg sedan 1991, är Malmötjejen som genom sin konst funnit sitt egna uttryckssätt. Då hon övervunnit svår sjukdom avspeglas detta i hennes surrealistiska kvinnoporträtt inspirerade av den nordiska floran och faunan. Även tatuerandet har fallit sig naturligt, och här bevisar hon trots hårda yttren, får man lov att vara en marschmallow under ytan.
     link: http://wicketh.blogspot.com
     twitter:
-  - image: Wendel-B-strombeck.jpg
+  - image: contributors/Wendel-B-strombeck.jpg
     name: Wendel B Strömbeck
     description: Serietecknare, transaktivist, queerfeminist, dragartist. Hen är medlem i det feministiska serietecknarkollektivet Dotterbolaget och forskar samt tecknar för tillfället på en seriebok/uppsats som behandlar cisnormen (normen som säger att du endast kan vara linjär kvinna eller man resten av livet) och blickar. Hen har myntat begreppen "cisblicken" och "error i cisblicken", och är av den bestämda åsikten att "hen" är ett viktigt ord med revolutionär potential - och att transfobin inom feminismen måste ryckas upp med rötterna. Hen tror på 2014 som ett avgörande år då F! kom in i riksdagen och SD åkte ut. Hen tror också att vi kan vända det här politiska skeppet med gemensam kraft, de fascistiska strömmarna ska INTE lamslå oss. ALDRIG GER VI UPP!
     link: http://www.queerelle.blogspot.se
     twitter:
-  - image: elin-sandstrom-bild.2.jpg
+  - image: contributors/elin-sandstrom-bild.2.jpg
     name: Elin Sandström
     description: Elin Sandström är frilansande illustratör och design student på konstfack. Om ni vill se mer av Elin så gå in på http://eplet.se/
     link: http://eplet.se/
     twitter:
-  - image: ellen-ekman-bild.jpg
+  - image: contributors/ellen-ekman-bild.jpg
     name: Ellen Ekman
     description: Ellen Ekman är serietecknare och illustratör. Just nu hittar du hennes serie Lilla Berlin varje dag i tidningen Metro plus att hon nyligen släppte en bok vid namn “Lilla Berlin”. För att se mer av Ellen kan ni gå in på hennes hemsida http://ellenekman.blogspot.se/
     link: http://ellenekman.blogspot.se/
     twitter:
-  - image: ellinor-flood.jpg
+  - image: contributors/ellinor-flood.jpg
     name: Ellinor Flood
     description: Åttiotalist-feminist från Göteborg som är barnsligt förtjust i små djur och som somnar till Harry Potter som ljudbok varje kväll. Självlärd ”ritare” som lägger hela sin fritid på skapande av olika slag. Tycker allas lika värde är lika självklart som tyngdlagen och drömmer om en värld där alla fattat grejen och om att någon gång äga minst en get. Om du vill veta mer om mig så besök gärna min hemsida, ellinorflood.se, eller titta in på min instagram, @ellinorflood.
     link: http://www.ellinorflood.se
     twitter:
-  - image: emanuel-garnheim.jpg
+  - image: contributors/emanuel-garnheim.jpg
     name: Emanu Garnheim
     description: Emanuel Garnheim är en illustratör och politisk serietecknare. Jobbar med att skapa konst till mobil/data spel. Om ni vill se mer av Emanuel kan ni gå in på hans hemsida http://www.emanu.se/
     link: http://www.emanu.se/
     twitter:
-  - image: fredrik-romanov.jpg
+  - image: contributors/fredrik-romanov.jpg
     name: Fredrik R. Åhsberg
     description: Fredrik Åhsberg är 21 år och studerar Mänskliga Rättighetsstudier vid Lunds Universitet. För tillfället är han i Vancouver, Kanada, och gör sin praktik hos Amnesty International. På fritiden gör han inte så mycket mer än att kolla på tv-serier och bli upprörd över vart vårt samhälle är på väg.
     link:
     twitter: fuckuponme
-  - image: gudrun-schyman.jpg
+  - image: contributors/gudrun-schyman.jpg
     name: Gudrun Schyman
     description: Gudrun Schyman är en av grundarna till Feministiskt Initativ och också den person som toppar riksdagslistan för F! inför valet. Gudrun är känd för sitt jävlar anamma och driver 2014 den feministiska kampen hårdare än någonsin.
     link:
     twitter: gudschy
-  - image: josefin-malberg.jpg
+  - image: contributors/josefin-malberg.jpg
     name: Josefin Mälberg
     description: Josefin Mälberg är serietecknare och musiker som målar feministiska, antirasistiska och veganska serier. Josefin ser sig själv som en blåhårig streckgubbe och gillar nästan allt som är grönt. På hemsidan läggs det upp bilder och lite text när en våg av flow passerat.
     link: http://www.josefinmalberg.se
     twitter:
-  - image: josefin-svenske.2.jpg
+  - image: contributors/josefin-svenske.2.jpg
     name: Josefin Svenske
     description: Josefin Svenske, serietecknare. Förläggare på serieförlaget Kolik och en av huvudlärarna på Serieskolan i Malmö.
     link:
     twitter:
-  - image: klaus-piltz.jpg
+  - image: contributors/klaus-piltz.jpg
     name: Klaus Piltz
     description: Klaus Piltz a.k.a Kniv har ett förflutet som illustratör och grafisk formgivare, men har de senaste åren utbildat sig till bild- och fritidspedagog. Brinner för skateboard, konst, feminism och en skola där alla elever ges samma möjligheter och där alla elevers röster tas på största allvar.
     link:
     twitter:
-  - image: lina-neidestam-bild.jpg
+  - image: contributors/lina-neidestam-bild.jpg
     name: Lina Neidestam
     description: Lina Neidenstam är utbildad vid Serieskolan i Malmö. 2007 publicerades hennes Häxan i skogen som en av Seriefrämjandets minialbum i Lantis­serien. Efter att hon hade fått seriestrippar publicerade i Sydsvenskan, Metro, Norrländska Socialdemokraten och Nemi, gavs hennes första egna bok – Zelda – ut 2009 av Kartago förlag. Hennes andra bok Maran gavs ut 2010 av Kolik förlag som den andra boken i Femisex­serien, förlagets bokserie med feministiska sexserier. För skapandet av boken tilldelades hon ett stipendium på 217 000 kronor av Konstnärsnämnden.[3] Neidestam fick 2011 motta Adamsonstatyetten för serien Zelda. Andra av hennes serier har bland annat publicerats i tidningarnaHjälp och Arne Anka. Neidestam är tidigare medlem i seriekollektivet Polly Darton. Hon bor i Stockholm, där hon tecknar Zelda för bland annat Aftonbladet, Situation Stockholm, Rocky­magasinet och norska Dagbladet. Hon representeras och distribueras av Strand Comics.
     link: http://www.linaneidestam.se/
     twitter:
-  - image: lisen-haglund-bild.jpg
+  - image: contributors/lisen-haglund-bild.jpg
     name: Lisen Haglund
     description: Finns även på http://instagram.com/nattskiftet
     link: http://nattskiftet.tictail.com/
     twitter:
-  - image: lovisa-skold.jpg
+  - image: contributors/lovisa-skold.jpg
     name: Lovisa Sköld
     description: Lovisa Sköld är en Göteborgsbaserad konstnär som bland annat gör halsband med feministiska motiv. Hon gör även illustrationer, tygkassar och konst på temat.
     link: http://lovisa.dunked.com
     twitter:
-  - image: malin-michea.jpg
+  - image: contributors/malin-michea.jpg
     name: Malin Michea
     description: 30 år, bor i Göteborg med sambo och tre katter. Chefredaktör på http://www.tempermag.se/, frilansskribent och bloggare. Medgrundare av Fembrella Gbg som är en plattform för feministiskt nätverkande och aktivism i Göteborg.
     link: http://www.tempermag.se/
     twitter:
-  - image: my-gerdin.jpg
+  - image: contributors/my-gerdin.jpg
     name: My Gerdin
     description: My Gerdin, 29 år, Eslöv. Feminist sedan födseln, men förstod först vad det var & innebar i mitten på tonåren. Är väldigt förtjust i att teckna, fotografera, blogga & läsa. Är även ett stort fan av internet, sociala medier & kaffe!
     link: http://lilija.com
     twitter:
-  - image: roxy-farhat,-hanna-stenman.jpg
+  - image: contributors/roxy-farhat,-hanna-stenman.jpg
     name: Roxy Farhat, Hanna Stenman
     description: Hanna Stenman är konstnär, serietecknare och jävligt förbannad. Roxy Farhat är konstnär, musikvideoregissör och jävligt förbannad. Sida vid sida arbetar dom feministiskt genom kultur och vardagsaktivitsm. Till den här antologin har de tillsammans gjort ett grafiskt uppslag om normaliseringen av rasism och låtit sig inspireras av demoniseringen av feminism.
     link:
     twitter:
-  - image: shabnam-faraee.jpg
+  - image: contributors/shabnam-faraee.jpg
     name: Shabnam Faraee
     description: Shabnam Faraee kommer ursprungligen från Iran och har bott i Stockholm sedan september 2002. Hon arbetar gränsöverskridande med grafisk design, mönsterdesign, animation och illustration. Hennes visuella uttryck färgas av mötet mellan den iranska och svenska bildtraditionen.
     link:
     twitter:
-  - image: yolanda-bild.jpg
+  - image: contributors/yolanda-bild.jpg
     name: Yolanda Aurora Bohm
     description: 'Kontaktannons #5: Fri som en exotisk fågel – Hej! Jag söker någon som uppfyller så många som möjligt av följande kriterier: rasifierad, queer, nykterist, vegan, anarkist, femme, artist (helst poet), trans, som levde när muren föll, som vet vilket mur jag refererar till, extrovert, pyroman, TREVLIG OCH SNÄLL, arrogant och dryg, sexarbetare, poly, från orten, från bygden, kan och vill gråta, vill och kan rädda alla, smygterrorist + jonglös. Utan inbördes ordning. (Eller kanske lite.) Typ sammanfattat i orden som Emil Jensen i sin tur själv citerade: ”en naiv idealist som dör i slutet!” Känner du dig som en sådan eller någon som kan passa? HOLLA @ ME omedelbums, typ lämna ett meddelande i kommentarsfältet. Och om någon påstår att jag har beskrivit mig själv, så kanske den är mig på spåren.'
     link:
     twitter:
-  - image: Frankie-Andersson.jpg
+  - image: contributors/Frankie-Andersson.jpg
     name: Frankie Andersson
     description: Utöver att hon kan rita bra serier har Frankie faktiskt också ett världsrekord. Hon är den som jonglerat med flest brinnande elefanter samtidigt. Oroa dig inte, elefanterna var inte vid liv. Eller brinnande. Hon kan faktiskt inte ens jonglera. Men! Hon är en hejare på att vissla! Eller nä, hon är helt ok ...eller njaaa, hon kan vissla om hon verkligen anstränger sig. ..eller njaaa, det visslar ibland när hon pratar.
     link:
     twitter:
-  - image: Linda-Hiltmann.jpg
+  - image: contributors/Linda-Hiltmann.jpg
     name: Linda Hiltmann
     description: Linda Hiltmann är göteborgaren som blev en riktig F! Malmö­räv. Som tröskat sig igenom småspik av kvinnohat och nu njuter av att surfa på det feministiska genombrottet. I år ställer sig Linda för andra gången på kommunlistan för Malmö. Årets viktigaste gärning? Rösta rosa!
     link:
     twitter:
-  - image: Love-Rydje.jpg
+  - image: contributors/Love-Rydje.jpg
     name: Love Rydje
     description: 'I en by lite för nära Vellinge har Love Rydje spenderat flera år med att argumentera mot homofobi, rasism och anti-feminism. Därför känner han sig mer än redo att krossa patriarkatet tillsammans med alla medverkande i denna boken. I framtiden ska han designa kläder för alla med det grundläggande budskapet: kläder har inget kön.'
     link:
     twitter:
-  - image: Sara-Hausenkamp.jpg
+  - image: contributors/Sara-Hausenkamp.jpg
     name: Sara Hausenkamp
     description:
     link: http://sarahausenkamp.blogspot.se/
     twitter:
-  - image: Soraya_Post_jpg.jpg
+  - image: contributors/Soraya_Post_jpg.jpg
     name: Soraya Post
     description: Soraya Post arbetar på rättighetskommittens kansli som MR- strateg.Fokus på utbildning i mänskliga rättigheter och rättighetsbaserat förhållningssätt. Hon har drivit Romska i Västra Götalands regionen. Soraya har drivit romska frågor och mänskliga rättigheter-frågan på hög internationell nivå inom OSSE (Organisationen för säkerhet och samarbete i Europa), EU-parlamentet, Europarådet och FRA (Fundamental Rights Agency).
     link:
     twitter:
-  - image: Victoria-Kawesa.jpg
+  - image: contributors/Victoria-Kawesa.jpg
     name: Victoria Kawesa
     description: Victoria Kawesa är doktorand i genusvetenskap, har arbetat på EU-nivå med mänskliga rättigheter samt forskat och arbetat som expertkonsult i frågor som rör jämställdhet, migration, rasism, barns rättigheter och skydd, rättsäkerhet med mera.
     link:
     twitter:
-  - image: MinaHesar.jpg
+  - image: contributors/MinaHesar.jpg
     name: Mina Hesar
     description: Mina Hesar, 28 år, Malmö. Född i Iran, men flydde ihop med sin mamma och bror som 3-åring till Sverige. Hon jobbar med unga tjejer vilket hon brinner för. Mina arrangerade i hösten 2013 en demonstration mot rasism och hatbrott i Malmö som fick mycket uppmärksamhet.
     link:
     twitter:
-  - image: kristinawicksell03.jpg
+  - image: contributors/kristinawicksell03.jpg
     name: Kristina Wicksell
     description: Debattör på vänsterkanten, frilansskribent och förstås feminist. Är en av personerna bakom föreningen Jämställd festival som arbetar för ökad representation av kvinnor på och bakom Sveriges festivalscener. Driver en blogg om feministm, socialism och antirasism och är aktiv aktivist både på internet samt på gator och torg. Snart innehavare av kandidatexamen i Mänskliga rättigheter och Statsvetenskap.
     link:

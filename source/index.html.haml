@@ -40,22 +40,11 @@ title: F! - Det händer nu
         %p
           Vi är helt överväldigade av gensvaret, nästan alla tillfrågade har ställt sig extremt positiva till vår fråga om att ideellt bidra med sitt arbete. "Vilken ära att arbeta med F!, självklart!" har vi fått höra många gånger. I vilka andra partier händer detta? Gruppen medverkande har nu växt till starka #{data.people.contributors.count} personer och vi som redaktörer hade inte kunnat vara mer nöjda över urvalet.
         .row.people-row
-          .medium-3.columns.text-center
-            %a{href: 'http://twitter.com/ninjalajs', target: '_BLANK'}
-              .photo.smallest{'data-src' => image_path("crew/lisa.jpg")}
-              %p Lisa Rydje
-          .medium-3.columns.text-center
-            %a{href: 'http://twitter.com/EllenArthina', target: '_BLANK'}
-              .photo.smallest{'data-src' => image_path("crew/ellen.jpg")}
-              %p Ellen Magnusson
-          .medium-3.columns.text-center
-            %a{href: 'http://twitter.com/jeppsson_sara', target: '_BLANK'}
-              .photo.smallest{'data-src' => image_path("crew/sara.jpg")}
-              %p Sara Jeppson
-          .medium-3.columns.text-center
-            %a{href: 'http://twitter.com/MyKnas', target: '_BLANK'}
-              .photo.smallest{'data-src' => image_path("crew/felicia.jpg")}
-              %p Felicia Piltz
+          - data.people.crew.each do |p|
+            .medium-3.columns.text-center
+              %a.pop
+                .photo.smallest{'data-src' => image_path(p.image)}
+                %p= p.name
 
 %section#people
   .container
@@ -64,15 +53,15 @@ title: F! - Det händer nu
         %h2.text-center
           %small Medverkande
           Vi är med i boken
-    - list = data.people.contributors.sort_by { |p| p[:name] }.in_groups_of(4).each do |row|
+    - list = data.people.contributors.sort_by { |p| p.name }.in_groups_of(4).each do |row|
       .row.people-row
         - row.each do |p|
           .medium-3.columns.text-center
-            %a
+            %a.pop
               - if p
-                - path = image_path("contributors/#{p['image']}");
-                .photo{'data-src' => path, 'data-name' => p[:name]}
-                %h5= p['name']
+                - path = image_path(p.image);
+                .photo{'data-src' => path, 'data-name' => p.name}
+                %h5= p.name
               - else
                 &nbsp;
 
@@ -101,21 +90,20 @@ title: F! - Det händer nu
 
 %section.slideshow
   %ul
-    - data.people.contributors.sort_by { |p| p[:name] }.each do |p|
+    - (data.people.crew + data.people.contributors.sort_by { |p| p.name }).each do |p|
       %li
         %figure
-          - path = image_path("contributors/#{p['image']}");
-          .profile.photo.large{'data-src' => path}
+          .profile.photo.large{'data-src' => image_path(p.image)}
           %figcaption.text-center
             %h3
               = p['name']
               %span.links
-                - if twitter = p['twitter']
+                - if twitter = p.twitter
                   %a.fa.fa-twitter{href: "http://twitter.com/#{twitter}", target: '_BLANK'}
-                - if link = p['link']
+                - if link = p.link
                   %a.fa.fa-link{href: link, target: '_BLANK'}
           %p.text-center
-            = p['description']
+            = p.description
   %nav
     %span.nav-prev.fa.fa-chevron-left
     %span.nav-next.fa.fa-chevron-right
