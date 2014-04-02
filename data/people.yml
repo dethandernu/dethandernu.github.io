@@ -88,7 +88,7 @@ contributors:
   - image: contributors/Frida-isolato.jpg
     name: Frida Isotalo
     description: Frida Isotalo är konstnär och illustratör. Studerar till bildlärare på Konstfack, gör för närvarande sitt examensarbete om Lolita-kulturen. Hon är 32 år och stolt medlem av det feministiska kvinno- och transseparatistiska serienätverket Dotterbolaget. Älskar fika och mörker.
-    link:
+    link: http://fridamorker.blogspot.se/
     twitter:
   - image: contributors/Ida-Ostensson.jpg
     name: Ida Östensson
@@ -228,7 +228,7 @@ contributors:
   - image: contributors/Sara-Elgeholm.jpg
     name: Sara Elgeholm
     description: Sara Elgeholm är serietecknare och illustratör och för tillfället bosatt och verksam i Göteborg. Förutom att teckna arbetar Sara deltid som personlig assistent och tycker mycket om att cykla, bada och dansa. Hen är medlem i det feministiska seriekollektivet Dotterbolaget.
-    link:
+    link: http://saraelgeholm.blogspot.se/
     twitter:
   - image: contributors/Siri-Frances.jpg
     name: Siri Frances
@@ -353,7 +353,7 @@ contributors:
   - image: contributors/roxy-farhat,-hanna-stenman.jpg
     name: Roxy Farhat, Hanna Stenman
     description: Hanna Stenman är konstnär, serietecknare och jävligt förbannad. Roxy Farhat är konstnär, musikvideoregissör och jävligt förbannad. Sida vid sida arbetar dom feministiskt genom kultur och vardagsaktivitsm. Till den här antologin har de tillsammans gjort ett grafiskt uppslag om normaliseringen av rasism och låtit sig inspireras av demoniseringen av feminism.
-    link:
+    link: http://www.roxyfarhat.com
     twitter:
   - image: contributors/shabnam-faraee.jpg
     name: Shabnam Faraee
@@ -443,5 +443,20 @@ contributors:
   - image: contributors/therese_lundin.jpg
     name: Therése Lundin
     description: Therése Lundin är serietecknare och formgivare bosatt i Malmö. Där hänger hon med alla hjältar i det feministiska serienätverket Dotterbolaget och alla hårdkokta knallpulvergangstrar i Hårdrocksgemenskapen Flares.
+    link:
+    twitter:
+  - image: contributors/InaBjorkstedt.jpg
+    name: Ina Björkstedt
+    description: Ina Björkstedt är 29 år och bosatt i Göteborg. Hon är skribent och illustratör för den nystartade feministiska nättidningen Temper Magazine. Ina kandiderar även till Göteborgs kommun med Feministiskt Initiativ. Hennes politiska hjärtefrågor är QTBH och funktionslitetspolitik.
+    link: http://vidundret.se
+    twitter: Inacaroline
+  - image: contributors/femserier.jpg
+    name: Femserier
+    description: Femserier tog sitt avstamp i feministiskt telefonklotter men har idag expanderat till ett kreativt kollektiv med fokus på jämställdhet. Femserier använder sig av serieteckning och fotografi, samtal, text och aktivism, samt andra kreativa metoder för att föra fram sitt budskap. Det är idag inte allmänt känt precis vilka eller hur många som innefattas under femseriers pastellfärgade paraply. Men vi kan säga att det är ett gäng tunga brudar som tecknar och formger, driver feministisk kamp, käkar falafel och lyssnar på svensk hiphop. I väntan på en hemsida hittar ni Femserier på Facebook.
+    link: https://www.facebook.com/pages/Femserier/311982322241228
+    twitter:
+  - image: contributors/MatildaBerggren.jpg
+    name: Matilda Berggren
+    description: Matilda är komiker, skribent och radioprofil känd från Ligga med P3. Men framförallt; feminist.
     link:
     twitter:
