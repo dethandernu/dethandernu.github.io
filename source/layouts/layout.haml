@@ -18,10 +18,10 @@
 
     -# Facebook
     %meta{content: "F! - Det händer nu", property: "og:title"}/
-    %meta{content: "Vi kommer att släppa en en antologi fylld av inspirerande serier, illustrationer och texter. Alla skapade av feminister. Vi är alla en del av ett historiskt feministiskt genombrott och Det händer nu.", name: "description"}/
-    %meta{content: "Vi kommer att släppa en en antologi fylld av inspirerande serier, illustrationer och texter. Alla skapade av feminister. Vi är alla en del av ett historiskt feministiskt genombrott och Det händer nu.", property: "og:description"}/
+    %meta{content: "Vi släpper en en antologi fylld av inspirerande serier, illustrationer och texter. Alla skapade av feminister. Vi är alla en del av ett historiskt feministiskt genombrott och Det händer nu.", name: "description"}/
+    %meta{content: "Vi släpper en en antologi fylld av inspirerande serier, illustrationer och texter. Alla skapade av feminister. Vi är alla en del av ett historiskt feministiskt genombrott och Det händer nu.", property: "og:description"}/
     %meta{content: "Det händer nu", property: "og:site_name"}/
-    %meta{content: "http://feministisktinitiativ.se/wp-content/themes/fi/img/share.png?v=2", property: "og:image"}/
+    %meta{content: "https://dl.dropboxusercontent.com/u/4211761/dethandernu.jpg", property: "og:image"}/
     %link{href: "http://feministisktinitiativ.se/wp-content/themes/fi/img/favicon.ico", rel: "shortcut icon"}/
 
     -# Favicon and touch icons
@@ -45,6 +45,7 @@
   = javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"
   = javascript_include_tag  "all"
   :javascript
+    new WOW().init();
     new CBPGridGallery( document.body );
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

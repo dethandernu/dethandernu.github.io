@@ -3,6 +3,7 @@
 @import "compass";
 @import "odometer/themes/odometer-theme-default";
 @import "slideshow";
+@import "animate";
 
 @include font-face("Klinic",
   font-files("KlinicSlabBook.ttf",
@@ -52,10 +53,11 @@ input, textarea {
 
 .button {
   background: transparent;
-  border-color: #fff;
+  border-color: #575D90;
+  color: #575D90;
   &:hover {
-    color: #D71066;
-    background: #fff;
+    color: #fff;
+    background: #575D90;
   }
   &.large {
     font-size: 29px;
@@ -65,7 +67,7 @@ input, textarea {
 
 form .button {
   color: #D71066;
-  background: #fff;
+  background: #575D90;
 }
 
 section {
@@ -73,7 +75,13 @@ section {
   padding-bottom: 80px;
 }
 
+.header {
+  margin-bottom: 30px;
+}
+
 #hero {
+  overflow: hidden;
+
   ::-webkit-input-placeholder {
      color: rgba(255, 255, 255, 0.6);
   }
@@ -89,14 +97,27 @@ section {
   :-ms-input-placeholder {
      color: rgba(255, 255, 255, 0.6);
   }
-  //background: #D71066;
-  //background-image: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.16)),-webkit-linear-gradient(108deg,#CC1BA5,#D71066 90%);
-  background: #D22486 image-url('hero.jpg') no-repeat center center;
-  @include background-size(cover);
+
+  background: rgb(218,239,241); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(218,239,241,1) 0%, rgba(245,215,231,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(218,239,241,1)), color-stop(100%,rgba(245,215,231,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  rgba(218,239,241,1) 0%,rgba(245,215,231,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  rgba(218,239,241,1) 0%,rgba(245,215,231,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  rgba(218,239,241,1) 0%,rgba(245,215,231,1) 100%); /* IE10+ */
+  background: linear-gradient(135deg,  rgba(218,239,241,1) 0%,rgba(245,215,231,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daeff1', endColorstr='#f5d7e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  img.book {
+    max-width: inherit;
+    position: relative;
+    left: -39px;
+    top: 3px;
+  }
+
   input.email {
-    color: #fff;
+    color: #575D90;
     background: transparent;
-    border-color: #fff;
+    border-color: #575D90;
     font-size: 29px;
     border-style: solid;
     border-width: 3px;
@@ -113,16 +134,18 @@ section {
     top: 29px;
   }
   h1 {
-    color: #fff;
-    font-size: 78px;
+    color: #575D90;
+    font-size: 62px;
     font-style: italic;
     margin-top: 30px;
-    margin-bottom: 17px;
+    margin-bottom: 27px;
+    line-height: 1.2em;
   }
   h2.subheader {
-    color: #FFD5EC;
-    font-size: 29px;
-    margin-bottom: 54px;
+    color: #575D90;
+    opacity: 0.9;
+    font-size: 25px;
+    margin-bottom: 48px;
   }
   .button {
     margin-bottom: 130px;
@@ -259,11 +282,17 @@ section {
     margin-bottom: 30px;
   }
   p {
-    margin-bottom: 50px;
+    margin-bottom: 44px;
     color: #fff;
   }
-  .button:hover {
-    color: #333;
+  a.button {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+      color: #333;
+      background: #fff;
+    }
   }
 }
 

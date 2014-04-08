@@ -4,6 +4,8 @@
 #= require jquery.inview/jquery.inview
 #= require classie/classie
 #= require slideshow
+#= require wow
+
 $('[data-twitter-count]').each((el, i) ->
   url = $(@).data('twitter-count')
   return unless url
