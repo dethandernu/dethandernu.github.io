@@ -51,6 +51,10 @@ input, textarea {
   -webkit-border-radius: 0;
 }
 
+.container {
+  position: relative;
+}
+
 .button {
   background: transparent;
   border-color: #575D90;
@@ -73,6 +77,37 @@ form .button {
 section {
   padding-top: 80px;
   padding-bottom: 80px;
+  position: relative;
+}
+
+.cover.gradient {
+  background: -moz-linear-gradient(79deg,  rgba(54,59,64,1) 0%, rgba(54,59,64,1) 46%, rgba(54,59,64,0) 61%, rgba(54,59,64,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(54,59,64,1)), color-stop(46%,rgba(54,59,64,1)), color-stop(61%,rgba(54,59,64,0)), color-stop(100%,rgba(54,59,64,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(79deg,  rgba(54,59,64,1) 0%,rgba(54,59,64,1) 46%,rgba(54,59,64,0) 61%,rgba(54,59,64,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(79deg,  rgba(54,59,64,1) 0%,rgba(54,59,64,1) 46%,rgba(54,59,64,0) 61%,rgba(54,59,64,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(79deg,  rgba(54,59,64,1) 0%,rgba(54,59,64,1) 46%,rgba(54,59,64,0) 61%,rgba(54,59,64,0) 100%); /* IE10+ */
+  background: linear-gradient(79deg,  rgba(54,59,64,1) 0%,rgba(54,59,64,1) 46%,rgba(54,59,64,0) 61%,rgba(54,59,64,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363b40', endColorstr='#00363b40',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.cover.bg {
+  left: 41%;
+  background-image: image-url('party-bg.jpg');
+}
+
+.cover.dj {
+  @include transition(opacity 0.5s);
+  opacity: 0;
+  left: 41%;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  @include background-size(cover);
 }
 
 .header {
@@ -275,7 +310,8 @@ section {
 }
 
 #party {
-  background: #F7F7F7 image-url('party-bg.jpg') no-repeat center center;
+  background: #363B40;
+
   @include background-size(cover);
   h2 {
     color: #fff;
@@ -292,6 +328,32 @@ section {
     &:hover {
       color: #333;
       background: #fff;
+    }
+  }
+  .djs {
+    position: absolute;
+    top: -36px;
+    right: 0;
+    li {
+      text-align: right;
+      width: 300px;
+      margin:0;
+      padding-bottom: 8px;
+      a {
+        display: inline-block;
+        color: #fff;
+        background-color: #22262b;
+        padding: 16px 32px 14px;
+        font-size: 27px;
+        text-align: right;
+        font-family: Klinic;
+        @include transition(all 0.25s);
+        &:hover {
+          color: #22262b;
+          background-color: #fff;
+          padding-right: 60px;
+        }
+      }
     }
   }
 }

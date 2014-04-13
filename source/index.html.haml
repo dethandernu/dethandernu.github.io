@@ -25,7 +25,29 @@ title: F! - Det händer nu
         = image_tag 'book.png', class: 'book wow fadeInDown', 'data-wow-duration' => "2s", 'data-wow-delay' => "1s", style: 'display:none;'
 
 %section#party
+  .cover.bg
+  .cover.dj.juck{'data-src' => image_path('party-bg-juck.jpg')}
+  .cover.dj.katla{'data-src' => image_path('party-bg-katla.jpg')}
+  .cover.dj.max{'data-src' => image_path('party-bg-max.jpg')}
+  .cover.dj.systerkollektivet{'data-src' => image_path('party-bg-systerkollektivet.jpg')}
+  .cover.dj.tommiex{'data-src' => image_path('party-bg-tommiex.jpg')}
+  .cover.dj.unnitz{'data-src' => image_path('party-bg-unnitz.jpg')}
+  .cover.gradient
   .container
+    %ul.djs.side-nav
+      %li.wow.fadeInRightBig{'data-wow-delay' => "0.0s"}
+        %a{href: 'https://www.facebook.com/JUCKJUCKJUCK?fref=ts', target: '_BLANK', 'data-dj' => 'juck'} JUCK
+      %li.wow.fadeInRightBig{'data-wow-delay' => "0.15s"}
+        %a{href: 'https://www.google.com/search?q=katla&es_sm=119&source=lnms&tbm=isch&sa=X&ei=_8xJU_7gNcGN4ATW1oHABg&ved=0CAkQ_AUoAg&biw=1680&bih=885', target: '_BLANK', 'data-dj' => 'katla'} Katla
+      %li.wow.fadeInRightBig{'data-wow-delay' => "0.30s"}
+        %a{href: 'https://soundcloud.com/maxlye', target: '_BLANK', 'data-dj' => 'max'} Max Lye
+      %li.wow.fadeInRightBig{'data-wow-delay' => "0.45s"}
+        %a{href: 'https://www.facebook.com/Systerkollektivet', target: '_BLANK', 'data-dj' => 'systerkollektivet'} Systerkollektivet
+      %li.wow.fadeInRightBig{'data-wow-delay' => "0.60s"}
+        %a{href: 'http://bon.se/blogs/tommie-x/', target: '_BLANK', 'data-dj' => 'tommiex'} Tommie X
+      %li.wow.fadeInRightBig{'data-wow-delay' => "0.75s"}
+        %a{href: 'https://www.facebook.com/tjejrejv', target: '_BLANK', 'data-dj' => 'unnitz'} Unnitz
+
     .row
       .medium-7.columns
         %h2
@@ -37,6 +59,7 @@ title: F! - Det händer nu
           %br
           Foto: Olle Enqvist
         %a.large.button{href: "https://www.facebook.com/events/1443457495895928", target: '_BLANK'} Info om festen
+
 
 %section#info
   .container

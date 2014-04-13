@@ -43,7 +43,7 @@ $('form#interest').submit( (e) ->
   )
 )
 
-$('.photo').each( (i, el) ->
+$('.photo, .cover.dj').each( (i, el) ->
   $(el).one('inview', (e, visible) ->
     if visible
       elm = $(@);
@@ -52,6 +52,12 @@ $('.photo').each( (i, el) ->
 )
 
 $('img.profile').lazyload();
+
+$('.djs li a').hover (e) ->
+  dj = $(e.currentTarget).data().dj
+  $(".cover.dj.#{dj}").css(opacity: 1)
+, (e) ->
+  $(".cover.dj").css(opacity: 0)
 
 window.addEventListener('load', ->
     FastClick.attach(document.body);
